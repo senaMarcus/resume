@@ -1,5 +1,7 @@
 import './intro.css'
 
+import Me from '../../assets/perfil.png'
+
 const Intro = () => {
     return(
         <div>
@@ -17,10 +19,15 @@ const Intro = () => {
                                 <div className="i-title-item">TECNÓFILO!</div>
                             </div>
                         </div>
+                        <div className="i-desc">
+                            Realizo serviços de design e desenvolvedor para clientes de todos os cantos, especializado na criação de sites elegantes e modernos, loja online na web, usando a mais recente tecnologia do mercado!
+                        </div>
                     </div> 
                 </div>
-                <div className="i-right">right</div>
-            </div>
+                <div className="i-right">
+                    <img src={Me} alt="" className="i-img"/>
+                </div>
+            </div> 
         </div>
     )
 }
