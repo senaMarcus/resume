@@ -12,7 +12,8 @@
 
 .i-right{
     flex:1;
-}
+    position: relative;
+}   
 
 .i-left-wrapper{
     padding: 50px;
@@ -69,4 +70,5 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
 }
