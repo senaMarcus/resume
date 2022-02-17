@@ -59,6 +59,7 @@ input{
     margin:10px 0px;
     font-size: 14px;
     padding-left: 10px;
+    outline: 0;
 }
 
 textarea{
@@ -66,4 +67,14 @@ textarea{
     margin:10px 0px;
     font-size: 14px;
     padding-left: 10px;
+    outline: 0;
+}
+
+button{
+    border:none;
+    cursor:pointer;
+    padding: 15px;
+    background-color: #4169E1;
+    color:white;
+    font-weight: 500;
 }
