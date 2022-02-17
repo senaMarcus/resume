@@ -41,6 +41,13 @@ const Contact = () => {
                         <p className="c-desc">
                             <b>Qual é a sua história?</b> Entre em contato. Estamos sempre disponíveis caso o projeto certo apareça!
                         </p>
+                        <form>
+                            <input type="text" placeholder='Nome' name="user_name" />
+                            <input type="text" placeholder='Subject' name="user_subject" />
+                            <input type="text" placeholder='Email' name="user_email" />
+                            <textarea rows="5" placeholder='Mensagem' name="mesage"/>
+                            <button>Enviar</button>
+                        </form>
                     </div>
                 </div>
         </div>
