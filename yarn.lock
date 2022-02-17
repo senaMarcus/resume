@@ -7106,6 +7106,11 @@ react-error-overlay@^6.0.10:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.10.tgz#0fe26db4fa85d9dbb8624729580e90e7159a59a6"
   integrity sha512-mKR90fX7Pm5seCOfz8q9F+66VCc1PGsWSBxKbITjfKVQHMNF2zudxHnMdJiB1fRCb+XsbQV9sO9DCkgsMQgBIA==
 
+react-floating-whatsapp@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/react-floating-whatsapp/-/react-floating-whatsapp-4.0.5.tgz#11020f6387298a4e18268c99baddbc83302a9d3e"
+  integrity sha512-KgpzswJ/Z5pKPDeqQDcMDHBgPQonqS6GLCb44HSSUaH4kgYBnigllWjfAC/D7oGvAGglKYpNOWM312Bp1xlC4Q==
+
 react-icons@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.3.1.tgz#2fa92aebbbc71f43d2db2ed1aed07361124e91ca"
@@ -7180,6 +7185,11 @@ react-scripts@5.0.0:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
+
+react-whatsapp@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/react-whatsapp/-/react-whatsapp-0.2.1.tgz#b0d8424619883b86271c9ea07d338f4b3e98669e"
+  integrity sha512-fjEahRJR0qcVvBZfxXxV9yK/U0QwFS9ZuoAvDpBmJbPS1cNAXUnJaDJ7mpZv0l11dfYEc4ikl/V5cwV/QVLKlg==
 
 react@^17.0.2:
   version "17.0.2"
