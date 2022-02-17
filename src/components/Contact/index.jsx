@@ -2,21 +2,33 @@ import './contact.css'
 import Phone from '../../assets/phone.png'
 import Email from '../../assets/email.png'
 import Address from '../../assets/address.png'
-import { useRef } from 'react'
+import { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
 
     const formRef = useRef()
+    const [done, setDone] = useState(false)
 
+    
     const handleSubmit = (e) => {
         e.preventDefault() //utilizando para quando clicar no btn submit nao dar refresh na pagina
-        emailjs.sendForm('service_oyre5bx', 'template_1cngpy7', formRef.current, 'user_aUpxughc8hZNvvEFbQkLt')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+        emailjs
+            .sendForm(
+                'service_oyre5bx',
+                'template_1cngpy7',
+                formRef.current,
+                'user_aUpxughc8hZNvvEFbQkLt'
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    setDone(true)
+                }, 
+                (error) => {
+                    console.log(error.text);
+                }
+            );
     }
 
     return (
@@ -62,6 +74,7 @@ const Contact = () => {
                             <input type="text" placeholder='Email' name="user_email" />
                             <textarea rows="5" placeholder='Mensagem' name="message"/>
                             <button>Enviar</button>
+                            {done && <p className="submit-confirm">Agradeço o contato. Retornarei em breve...</p>}
                         </form>
                     </div>
                 </div>
