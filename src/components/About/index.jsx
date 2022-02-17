@@ -1,4 +1,4 @@
-import { AboutCard, AboutContent, AboutLeft, AboutRight, CardBg } from './styles.js'
+import { AboutCard, AboutContent, AboutLeft, AboutRight } from './styles.js'
 
 import Front from '../../assets/test.jpg'
 
@@ -6,7 +6,7 @@ const About = () => {
     return(
             <AboutContent>
             <AboutLeft>
-                <CardBg></CardBg>
+                <div className="a-card bg"></div>
                 <AboutCard>
                     <img src={Front} alt="" />
                 </AboutCard>

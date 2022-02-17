@@ -15,14 +15,21 @@ export const AboutLeft = styled.div`
         justify-content: center;
         position: relative;
         height: 100%;
+
+        .a-card.bg{
+            position: absolute; 
+            top: 50px;
+            left: 50px;
+            background-color: #333;  
+        }
 `
 
-export const CardBg = styled.div`
-        position: absolute; 
-        top: 50px;
-        left: 50px;
-        background-color: #333;
-`
+// export const CardBg = styled.div`
+//         position: absolute; 
+//         top: 50px;
+//         left: 50px;
+//         background-color: #333;
+// `
 
 export const AboutRight = styled.div`
         flex:1;
