@@ -12,7 +12,7 @@ const Product = ({img,link,title, repository}) => {
                 <div className="p-circle"></div>
                 <a href={repository} target="_blank" rel="noreferrer" className="p-repo-link">
                     <p className="card-title">{title}</p>
-                    (repository)
+                    (Github repository)
                     <FiGithub />
                 </a>
             </div>

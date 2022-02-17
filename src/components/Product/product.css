@@ -26,10 +26,12 @@
 
 .p-repo-link{
     display:flex;
+    font-size: 14px;
     align-items: center;
     margin-left:auto;
     text-decoration: none;
     color: #333;
+    transition: 0.5s ease;
 }
 
 .p-repo-link:hover{
@@ -43,9 +45,9 @@
 .p-img{
     width: 100%;
     height: 100%;
-    transition: 2s ease;
+    transition: 1s ease;
 }
 
-.p:hover .p-img{
+ .p-img:hover{
     transform: scale(1.4);
 }

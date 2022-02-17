@@ -28,5 +28,19 @@ export const products = [
         title:"Calculator",
         link:"https://maarvins.github.io/calculator-js/",
         repository:"https://github.com/maarvins/calculator-js"
+    },
+    {
+        id: 5,
+        img:"https://github.com/maarvins/login/raw/master-branch/login-view.png",
+        title:"Login View",
+        link:"https://maarvins.github.io/login/",
+        repository: "https://github.com/maarvins/login"
+    },
+    {
+        id: 6,
+        img:"https://github.com/maarvins/Clone-instagram/raw/master/public/assets/print-app.png",
+        title:"Instagram Clone",
+        link:"https://clone-instagram-peach.vercel.app/",
+        repository: "https://github.com/maarvins/Clone-instagram"
     }
 ]
