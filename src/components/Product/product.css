@@ -8,10 +8,12 @@
 }
 
 .p-browser{
-    height: 20px;
+    height: 30px;
     background-color:rgb(243, 242, 242);
     display: flex;
     align-items: center;
+    position: sticky;
+    z-index: 2;
 }
 
 .p-circle{
@@ -20,4 +22,30 @@
     border-radius: 50%;
     background-color: white;
     margin:3px;
+}
+
+.p-repo-link{
+    display:flex;
+    align-items: center;
+    margin-left:auto;
+    text-decoration: none;
+    color: #333;
+}
+
+.p-repo-link:hover{
+    color: #4169E1;
+}
+
+.card-title{
+    margin: 0 10px 0 auto;
+}
+
+.p-img{
+    width: 100%;
+    height: 100%;
+    transition: 2s ease;
+}
+
+.p:hover .p-img{
+    transform: scale(1.4);
 }

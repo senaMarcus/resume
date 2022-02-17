@@ -1,7 +1,5 @@
 import './about.css'
 
-import Award from '../../assets/award.png'
-
 import Front from '../../assets/test.jpg'
 
 const About = () => {
