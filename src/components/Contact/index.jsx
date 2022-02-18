@@ -4,11 +4,15 @@ import Email from '../../assets/email.png'
 import Address from '../../assets/address.png'
 import { useRef, useState } from 'react'
 import emailjs from 'emailjs-com'
+import { useContext } from 'react'
+import { ThemeContext } from '../../context'
 
 const Contact = () => {
 
     const formRef = useRef()
     const [done, setDone] = useState(false)
+    const theme = useContext(ThemeContext)
+    const darkMode = theme.state.darkMode;
 
     
     const handleSubmit = (e) => {
@@ -69,10 +73,10 @@ const Contact = () => {
                             <b>Qual é a sua história?</b> Entre em contato. Estamos sempre disponíveis caso o projeto certo apareça!
                         </p>
                         <form ref={formRef} onSubmit={handleSubmit}>
-                            <input type="text" placeholder='Nome' name="user_name" />
-                            <input type="text" placeholder='Subject' name="user_subject" />
-                            <input type="text" placeholder='Email' name="user_email" />
-                            <textarea rows="5" placeholder='Mensagem' name="message"/>
+                            <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder='Nome' name="user_name" />
+                            <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder='Subject' name="user_subject" />
+                            <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder='Email' name="user_email" />
+                            <textarea style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} rows="5" placeholder='Mensagem' name="message"/>
                             <button className="btn btn-white btn-animate">Enviar</button>
                             {done && <p className="submit-confirm">Agradeço o contato. Retornarei em breve...</p>}
                         </form>
