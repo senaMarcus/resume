@@ -1,16 +1,26 @@
-import './styles.js'
-import { DarkLightBtn, ToggleStyle } from './styles.js'
-import Sun from '../../assets/sun.png'
-import Moon from '../../assets/moon.png'
+import "./toggle.css";
+import Sun from "../../assets/sun.png";
+import Moon from "../../assets/moon.png";
+import { useContext } from "react";
+import { ThemeContext } from "../../context";
 
-export const Toggle = () => {
-    return (
-        <ToggleStyle>
-            <img src={Sun} alt="" className="t-icon" />
-            <img src={Moon} alt="" className="t-icon" />
-            <DarkLightBtn>
-                <div className="t-button"></div>
-            </DarkLightBtn>
-        </ToggleStyle>
-    )
-}
+const Toggle = () => {
+  const theme = useContext(ThemeContext);
+
+  const handleClick = () => {
+    theme.dispatch({ type: "TOGGLE" });
+  };
+  return (
+    <div className="t">
+      <img src={Sun} alt="" className="t-icon" />
+      <img src={Moon} alt="" className="t-icon" />
+      <div
+        className="t-button"
+        onClick={handleClick}
+        style={{ left: theme.state.darkMode ? 0 : 25 }}
+      ></div>
+    </div>
+  );
+};
+
+export default Toggle;

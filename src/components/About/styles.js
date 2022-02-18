@@ -36,7 +36,7 @@ export const AboutRight = styled.div`
 
         h1{
             font-weight: 600;
-            color:#333;
+            color: #4169E1;;
         }
             
         h4{

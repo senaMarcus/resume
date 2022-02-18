@@ -73,7 +73,7 @@ const Contact = () => {
                             <input type="text" placeholder='Subject' name="user_subject" />
                             <input type="text" placeholder='Email' name="user_email" />
                             <textarea rows="5" placeholder='Mensagem' name="message"/>
-                            <button>Enviar</button>
+                            <button className="btn btn-white btn-animate">Enviar</button>
                             {done && <p className="submit-confirm">Agradeço o contato. Retornarei em breve...</p>}
                         </form>
                     </div>
