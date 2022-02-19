@@ -90,7 +90,7 @@
   right: 0;
 }
 
-@media screen and (max-device-width: 480px), screen and (max-width: 480px) {
+@media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
   .intro {
     flex-direction: column;
   }

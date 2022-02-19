@@ -50,11 +50,12 @@
   font-weight: 300;
 }
 
-@media screen and (max-device-width: 480px), screen and (max-width: 480px) {
+@media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
   .about {
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
+    height: 50vh;
   }
 
   .about-left {
@@ -71,6 +72,7 @@
   }
 
   .about-right {
+    height: 50vh;
     padding: 20px;
   }
 
