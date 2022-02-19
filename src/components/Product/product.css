@@ -2,14 +2,14 @@
   width: 30%;
   height: 33vh;
   margin: 20px 10px;
-  border: 2px solid rgb(243, 242, 242);
-  border-radius: 10px 10px 0px 0px;
   overflow: hidden;
 }
 
 .p-browser {
   height: 30px;
   background-color: rgb(243, 242, 242);
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0px 0px;
   display: flex;
   align-items: center;
   position: sticky;
@@ -39,15 +39,64 @@
 }
 
 .card-title {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  right: auto;
+  color: #4169e1;
   margin: 0 10px 0 auto;
 }
 
 .p-img {
   width: 100%;
-  height: 100%;
+  height: 200px;
   transition: 1s ease;
 }
 
 .p-img:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
+}
+
+@media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
+  .p {
+    width: 100%;
+    height: 25vh;
+    margin: 40px 40px;
+  }
+
+  .p-repo-link {
+    font-size: 30px;
+    margin-bottom: 20px;
+    border: none;
+  }
+
+  .p-img {
+    height: 100%;
+  }
+
+  .p-img:hover {
+    transition: none;
+    transform: none;
+  }
+
+  .card-title {
+    background-color: rgb(243, 242, 242);
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    right: auto;
+    color: #4169e1;
+  }
+
+  .p-browser {
+    border: none;
+  }
 }

@@ -55,7 +55,7 @@
     flex-direction: column;
     text-align: center;
     margin-top: 50px;
-    height: 50vh;
+    height: 43vh;
   }
 
   .about-left {
@@ -72,7 +72,6 @@
   }
 
   .about-right {
-    height: 50vh;
     padding: 20px;
   }
 
