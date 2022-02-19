@@ -64,7 +64,7 @@ const Contact = () => {
                                     alt="" 
                                     className="c-icon" 
                                 />
-                                    Entre em contato para nos localizarmos!
+                                    Entre em contato para nos conhecermos melhor!
                             </div>
                         </div>
                     </div>

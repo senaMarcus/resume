@@ -1,21 +1,21 @@
-.i {
+.intro {
   display: flex;
   height: 100vh;
 }
 
-.i-left {
+.intro-left {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.i-right {
+.intro-right {
   flex: 1;
   position: relative;
 }
 
-.i-left-wrapper {
+.intro-left-wrapper {
   padding: 50px;
   height: 50%;
   display: flex;
@@ -23,21 +23,21 @@
   justify-content: space-between;
 }
 
-.i-intro {
+.intro-introduction {
   font-size: 30px;
   font-weight: 300;
 }
 
-.i-name {
+.intro-name {
   font-size: 60px;
 }
 
-.i-title {
+.intro-title {
   height: 50px;
   overflow: hidden;
 }
 
-.i-title-wrapper {
+.intro-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
 }
@@ -52,12 +52,12 @@
   75% {
     transform: translateY(-150px);
   }
-  100% {
+  /* 100% {
     transform: translateY(-200px);
-  }
+  } tirar o comentário caso seja desejado acrescentar atributo*/
 }
 
-.i-title-item {
+.intro-title-item {
   height: 50px;
   font-size: 30px;
   font-weight: bold;
@@ -66,9 +66,62 @@
   align-items: center;
 }
 
-.i-img {
-  width: 90%;
-  height: 90%;
+.intro-scroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.intro-img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   position: absolute;
+}
+
+.intro-bg {
+  clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: #59b256;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-device-width: 480px), screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+
+  .intro-introduction {
+    font-size: 60px;
+  }
+
+  .intro-name {
+    font-size: 100px;
+  }
+
+  .intro-title-item {
+    height: 50px;
+    font-size: 60px;
+  }
+
+  .intro-desc {
+    display: none;
+  }
+
+  .intro-img {
+    width: 70%;
+    margin-left: 150px;
+  }
 }

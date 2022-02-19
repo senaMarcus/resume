@@ -5,27 +5,26 @@ import Me from '../../assets/perfil.png'
 const Intro = () => {
     return(
         <div>
-            <div className="i">
-                <div className="i-left"> 
-                    <div className="i-left-wrapper">
-                        <h2 className="i-intro">Olá, eu me chamo</h2>
-                        <h1 className="i-name">Marcus Sena</h1>    
-                        <div className="i-title">
-                            <div className="i-title-wrapper">
-                                <div className="i-title-item">Engenheiro de Software</div>
-                                <div className="i-title-item">Desenvolvedor Web</div>
-                                <div className="i-title-item">Frontend</div>
-                                <div className="i-title-item">Backend</div>
-                                <div className="i-title-item">Apaixonado por tecnologia!</div>
+            <div className="intro">
+                <div className="intro-left"> 
+                    <div className="intro-left-wrapper">
+                        <h2 className="intro-introduction">Olá, eu me chamo</h2>
+                        <h1 className="intro-name">Marcus Sena</h1>    
+                        <div className="intro-title">
+                            <div className="intro-title-wrapper">
+                                <div className="intro-title-item">Desenvolvedor Web</div>
+                                <div className="intro-title-item">Frontend</div>
+                                <div className="intro-title-item">Freelancer</div>
+                                <div className="intro-title-item">& More...</div>
                             </div>
                         </div>
-                        <div className="i-desc">
+                        <div className="intro-desc">
                             Realizo serviços de design e desenvolvedor para clientes de todos os cantos, especializado na criação de sites elegantes e modernos, loja online na web, usando a mais recente tecnologia do mercado!
                         </div>
                     </div> 
                 </div>
-                <div className="i-right">
-                    <img src={Me} alt="" className="i-img"/>
+                <div className="intro-right">
+                    <img src={Me} alt="" className="intro-img"/>
                 </div>
             </div> 
         </div>

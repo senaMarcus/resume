@@ -1,29 +1,33 @@
-import { AboutCard, AboutContent, AboutLeft, AboutRight } from './styles.js'
-
-import Front from '../../assets/test.jpg'
+import "./about.css";
+import Me from '../../assets/test.jpg'
 
 const About = () => {
-    return(
-            <AboutContent>
-            <AboutLeft>
-                <div className="a-card bg"></div>
-                <AboutCard>
-                    <img src={Front} alt="" />
-                </AboutCard>
-            </AboutLeft>
-            <AboutRight>
-                <h1>Sobre mim</h1>
-                <h4>
-                    Senta ai, porque lá vem história! 
-                </h4>
-                <p>
-                    Me chamo Marcus, tenho 27 anos, nascido numa cidade do interior de Minas Gerais/Brasil chamada Nanuque. A minha paixao pela tecnologia esta no meu sangue. Por algum motivo, durante minha juventude, acabei desviando meu foco da tecnologia para outras áreas, mas de 2020 até os dias de hoje tenho me aprofundado bastante nesse universo. <br/> <br/>
-                    Desde 03/2021 venho me imergindo dentro da programação, mais especificamente no mundo FRONTEND, utilizando tecnologias como: HTML, CSS, JAVASCRIPT (frameworks:REACTJS, NODEJS, ...) e muito mais.
-                    Implemento aplicativos, sites e landing pages desde o conceito até a implantação, sempre com designs responsivos e técnicas de SEO. <br/>  <br/>
-                    Sou muito criativo, atento aos detalhes, sempre focado em resolver problemas e ajudar as pessoas. 
-                </p>
-            </AboutRight>
-            </AboutContent >
-    )
-}
-export default About    
+  return (
+    <div className="about">
+      <div className="about-left">
+        <div className="about-card bg"></div>
+        <div className="about-card">
+          <img
+            src={Me}
+            alt=""
+            className="about-img"
+          />
+        </div>
+      </div>
+      <div className="about-right">
+        <h1 className="about-title">Sobre Mim ✋🏻 </h1>
+        <p className="about-sub">
+          Mineiro, 27 anos, atualmente residindo na região metropolitana de Belo Horizonte.
+        </p>
+        <p className="about-desc">
+          Desde a infância muito apaixonado por tecnologia, vendo nessa área a oportunidade de poder conviver com tanta inovação DIARIAMENTE. <br/><br/>
+          "A tecnologia move o mundo!" <br/><br/>
+          E você, tem movido algo?
+        </p>
+        
+      </div>
+    </div>
+  );
+};
+
+export default About;
