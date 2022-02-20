@@ -9,9 +9,9 @@ const Product = ({img,link,title, repository}) => {
             <div>
             <p className="card-title">{title} </p>
             <div className="p-browser">
-                <div className="p-circle"></div>
-                <div className="p-circle"></div>
-                <div className="p-circle"></div>
+                <div className="p-circle r"></div>
+                <div className="p-circle y"></div>
+                <div className="p-circle g"></div>
                 <a href={repository} target="_blank" rel="noreferrer" className="p-repo-link">
                     {/* <p className="card-title">{title}</p> */}
                     (Visitar Repositório Github)

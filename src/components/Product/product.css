@@ -17,11 +17,29 @@
 }
 
 .p-circle {
-  height: 6px;
-  width: 6px;
+  height: 10px;
+  width: 10px;
   border-radius: 50%;
   background-color: white;
   margin: 3px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.p-circle:hover {
+  opacity: 1;
+}
+
+.p-circle.r {
+  background-color: red;
+}
+
+.p-circle.y {
+  background-color: yellow;
+}
+
+.p-circle.g {
+  background-color: green;
 }
 
 .p-repo-link {
