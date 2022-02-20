@@ -36,40 +36,40 @@ const Contact = () => {
     }
 
     return (
-        <div className="c">
-            <div className="c-bg"></div>    
-                <div className="c-wrapper">
-                    <div className="c-left">
-                        <h1 className="c-title">Quer falar a respeito do seu projeto? Vamos lá!</h1>
-                        <div className="c-info">
-                            <div className="c-info-item">
+        <div className="contact">
+            <div className="contact-bg"></div>    
+                <div className="contact-wrapper">
+                    <div className="contact-left">
+                        <h1 className="contact-title">Quer falar a respeito do seu projeto? Vamos lá!</h1>
+                        <div className="contact-info">
+                            <div className="contact-info-item">
                                 <img 
                                     src={Phone} 
                                     alt="" 
-                                    className="c-icon" 
+                                    className="contact-icon" 
                                 />
                                 +55 31 99703-7152
                             </div>
-                            <div className="c-info-item">
+                            <div className="contact-info-item">
                                 <img 
                                     src={Email} 
                                     alt="" 
-                                    className="c-icon" 
+                                    className="contact-icon" 
                                 />
                                     maarvins.19@gmail.com
                             </div>
-                            <div className="c-info-item">
+                            <div className="contact-info-item">
                                 <img 
                                     src={Address} 
                                     alt="" 
-                                    className="c-icon" 
+                                    className="contact-icon" 
                                 />
                                     Entre em contato para nos conhecermos melhor!
                             </div>
                         </div>
                     </div>
-                    <div className="c-right">
-                        <p className="c-desc">
+                    <div className="contact-right">
+                        <p className="contact-desc">
                             <b>Qual é a sua história?</b> Entre em contato. Estamos sempre disponíveis caso o projeto certo apareça!
                         </p>
                         <form ref={formRef} onSubmit={handleSubmit}>
