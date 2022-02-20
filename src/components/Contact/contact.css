@@ -137,7 +137,7 @@ button {
 
 @media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
   .c {
-    height: 50vh;
+    height: 40vh;
   }
 
   .c-wrapper {
@@ -169,8 +169,9 @@ button {
   }
 
   button {
-    width: 20%;
-    font-size: 20px;
-    margin-left: 100px;
+    width: 30%;
+    height: 70px;
+    font-size: 30px;
+    margin: 20px 0 20px 100px;
   }
 }
