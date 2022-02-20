@@ -26,3 +26,21 @@
   position: absolute;
   cursor: pointer;
 }
+
+@media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
+  .t {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  .t-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .t-button {
+    width: 50px;
+    height: 50px;
+  }
+}
