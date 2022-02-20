@@ -145,11 +145,32 @@ button {
   }
 
   .c-title {
+    font-size: 60px;
     text-align: center;
     width: 100%;
   }
 
+  .c-info {
+    display: none;
+  }
+
   .c-desc {
     display: none;
+  }
+
+  input {
+    font-size: 30px;
+    width: 70%;
+  }
+
+  textarea {
+    font-size: 25px;
+    width: 90%;
+  }
+
+  button {
+    width: 20%;
+    font-size: 20px;
+    margin-left: 100px;
   }
 }
