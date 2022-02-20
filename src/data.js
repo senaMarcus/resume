@@ -1,9 +1,8 @@
-import Cep from '../src/assets/cep-img.png'
 
 export const products = [
     {
         id: 1,
-        img:Cep,
+        img:"https://github.com/maarvins/buscador/raw/master/src/assets/print.png",
         title:"Buscador de Cep",
         link: "https://buscador-bice.vercel.app/",
         repository:"https://github.com/maarvins/buscador"
