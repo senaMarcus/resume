@@ -21,7 +21,7 @@ function App() {
       <About />
       <ProductList />
       <Contact />
-      <FloatingWhatsApp phoneNumber="+5531997037152" accountName="MS BOT 🤖" statusMessage="Respostas em até 30 minutos!" height={520} chatMessage="Olá!! Como posso ajudar você?" placeholder="Mensagem..."  />
+      <FloatingWhatsApp  phoneNumber="+5531997037152" accountName="MS BOT 🤖" statusMessage="Respostas em até 30 minutos!" height={520} chatMessage="Olá!! Como posso ajudar você?" placeholder="Mensagem..."  />
     </div>
   );
 }
