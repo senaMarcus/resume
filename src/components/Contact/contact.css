@@ -135,8 +135,21 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
+  .c {
+    height: 50vh;
+  }
+
   .c-wrapper {
     flex-direction: column;
+  }
+
+  .c-title {
+    text-align: center;
+    width: 100%;
+  }
+
+  .c-desc {
+    display: none;
   }
 }
