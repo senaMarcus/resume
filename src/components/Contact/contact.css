@@ -88,7 +88,7 @@ button {
 
 @media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
   .contact {
-    height: 45vh;
+    height: 60vh;
   }
 
   .contact-wrapper {
