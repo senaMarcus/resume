@@ -1,4 +1,4 @@
-.t {
+.toggle {
   width: 50px;
   height: 25px;
   border-radius: 20px;
@@ -13,12 +13,12 @@
   justify-content: space-around;
 }
 
-.t-icon {
+.toggle-icon {
   width: 15px;
   height: 15px;
 }
 
-.t-button {
+.toggle-button {
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -28,18 +28,18 @@
 }
 
 @media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
-  .t {
+  .toggle {
     width: 50px;
     height: 25px;
     border-radius: 25px;
   }
 
-  .t-icon {
+  .toggle-icon {
     width: 25px;
     height: 25px;
   }
 
-  .t-button {
+  .toggle-button {
     width: 25px;
     height: 25px;
   }

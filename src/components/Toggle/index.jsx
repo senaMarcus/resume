@@ -11,11 +11,11 @@ const Toggle = () => {
     theme.dispatch({ type: "TOGGLE" });
   };
   return (
-    <div className="t">
-      <img src={Sun} alt="" className="t-icon" />
-      <img src={Moon} alt="" className="t-icon" />
+    <div className="toggle">
+      <img src={Sun} alt="" className="toggle-icon" />
+      <img src={Moon} alt="" className="toggle-icon" />
       <div
-        className="t-button"
+        className="toggle-button"
         onClick={handleClick}
         style={{ left: theme.state.darkMode ? 0 : 25 }}
       ></div>
