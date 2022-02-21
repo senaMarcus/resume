@@ -18,7 +18,7 @@ export const products = [
         id: 3,
         img:"https://raw.githubusercontent.com/maarvins/finances/master/src/assets/print.png",
         title:"Finances App",
-        link:"https://finances-liard.vercel.app/",
+        // link:"https://finances-liard.vercel.app/",
         repository: "https://github.com/maarvins/finances"
     },
     {
@@ -32,7 +32,7 @@ export const products = [
         id: 5,
         img:"https://github.com/maarvins/login/raw/master-branch/login-view.png",
         title:"Login View",
-        link:"https://maarvins.github.io/login/",
+        // link:"https://maarvins.github.io/login/",
         repository: "https://github.com/maarvins/login"
     },
     {
