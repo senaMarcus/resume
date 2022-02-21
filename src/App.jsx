@@ -7,7 +7,6 @@ import { ThemeContext } from './context'
 
 import FloatingWhatsApp from "react-floating-whatsapp";
 import { useContext } from "react";
-import './global.css'
 import Footer from "./components/Footer";
 
 function App() {
