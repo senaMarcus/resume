@@ -1,10 +1,11 @@
-import './contact.css'
+import { useRef, useState,useContext } from 'react'
+import './contact.scss'
+
 import Phone from '../../assets/phone.png'
 import Email from '../../assets/email.png'
 import Address from '../../assets/address.png'
-import { useRef, useState } from 'react'
+
 import emailjs from 'emailjs-com'
-import { useContext } from 'react'
 import { ThemeContext } from '../../context'
 
 const Contact = () => {
@@ -45,24 +46,21 @@ const Contact = () => {
                             <div className="contact-info-item">
                                 <img 
                                     src={Phone} 
-                                    alt="" 
-                                    className="contact-icon" 
+                                    alt="phone image" 
                                 />
                                 +55 31 99703-7152
                             </div>
                             <div className="contact-info-item">
                                 <img 
                                     src={Email} 
-                                    alt="" 
-                                    className="contact-icon" 
+                                    alt="email image" 
                                 />
                                     maarvins.19@gmail.com
                             </div>
                             <div className="contact-info-item">
                                 <img 
                                     src={Address} 
-                                    alt="" 
-                                    className="contact-icon" 
+                                    alt="address image" 
                                 />
                                     Entre em contato para nos conhecermos melhor!
                             </div>
