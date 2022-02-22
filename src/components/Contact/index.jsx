@@ -46,21 +46,21 @@ const Contact = () => {
                             <div className="contact-info-item">
                                 <img 
                                     src={Phone} 
-                                    alt="phone image" 
+                                    alt="phone icon" 
                                 />
                                 +55 31 99703-7152
                             </div>
                             <div className="contact-info-item">
                                 <img 
                                     src={Email} 
-                                    alt="email image" 
+                                    alt="email icon" 
                                 />
                                     maarvins.19@gmail.com
                             </div>
                             <div className="contact-info-item">
                                 <img 
                                     src={Address} 
-                                    alt="address image" 
+                                    alt="address icon" 
                                 />
                                     Entre em contato para nos conhecermos melhor!
                             </div>

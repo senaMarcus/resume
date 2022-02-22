@@ -9,7 +9,7 @@ const About = () => {
         <div className="about-card">
           <img
             src={Me}
-            alt="About image"
+            alt="About view"
           />
         </div>
       </div>
