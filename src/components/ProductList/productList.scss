@@ -8,19 +8,19 @@
 
 .product-list-texts {
   width: 65%;
-}
 
-.product-list-title {
-  font-size: 60px;
-  font-weight: 600;
+  h1 {
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 20px 0;
+  }
 }
 
 span {
   color: #4169e1;
-}
-
-.product-list-desc {
-  margin: 20px 0;
 }
 
 .product-list-list {
@@ -34,20 +34,19 @@ span {
   .product-list {
     padding: 10px;
   }
-
-  .product-list-title {
-    margin-bottom: 40px;
-  }
-
   .product-list-texts {
     width: 100%;
+
+    h1 {
+      margin-bottom: 40px;
+    }
+
+    p {
+      display: none;
+    }
   }
 
   span {
     font-size: 80px;
-  }
-
-  .product-list-desc {
-    display: none;
   }
 }
