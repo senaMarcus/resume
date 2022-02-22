@@ -3,8 +3,10 @@ import About from "./components/About";
 import ProductList from "./components/ProductList";
 import Contact from "./components/Contact";
 import  Toggle  from "./components/Toggle";
-import { ThemeContext } from './context'
 
+import './global.scss'
+
+import { ThemeContext } from './context'
 import FloatingWhatsApp from "react-floating-whatsapp";
 import { useContext } from "react";
 import Footer from "./components/Footer";
