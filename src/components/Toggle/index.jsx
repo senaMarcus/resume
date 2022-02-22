@@ -1,4 +1,4 @@
-import "./toggle.css";
+import "./toggle.scss";
 import Sun from "../../assets/sun.png";
 import Moon from "../../assets/moon.png";
 import { useContext } from "react";
@@ -12,8 +12,8 @@ const Toggle = () => {
   };
   return (
     <div className="toggle">
-      <img src={Sun} alt="" className="toggle-icon" />
-      <img src={Moon} alt="" className="toggle-icon" />
+      <img src={Sun} alt="" />
+      <img src={Moon} alt="" />
       <div
         className="toggle-button"
         onClick={handleClick}
