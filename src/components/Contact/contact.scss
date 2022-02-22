@@ -25,6 +25,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  form {
+    p {
+      font-family: "MontCarlo", sans-serif;
+      font-weight: bold;
+      color: #4169e1;
+      margin: 20px;
+    }
+  }
 }
 
 .contact-title {

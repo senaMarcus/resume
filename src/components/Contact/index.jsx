@@ -33,6 +33,7 @@ const Contact = () => {
                 (error) => {
                     console.log(error.text);
                 }
+                
             );
     }
 
@@ -76,7 +77,7 @@ const Contact = () => {
                             <input style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} type="text" placeholder='Email' name="user_email" />
                             <textarea style={{backgroundColor: darkMode && "#333", color: darkMode && "white"}} rows="5" placeholder='Mensagem' name="message"/>
                             <button className="btn btn-white btn-animate">Enviar</button>
-                            {done && <p className="submit-confirm">Agradeço o contato. Retornarei em breve...</p>}
+                            {done && <p>🚀 Agradeço o contato. Retornarei em breve... ✅</p>}
                         </form>
                     </div>
                 </div>
