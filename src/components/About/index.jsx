@@ -1,4 +1,4 @@
-import "./about.css";
+import "./about.scss";
 import Me from '../../assets/test.jpg'
 
 const About = () => {
@@ -9,14 +9,13 @@ const About = () => {
         <div className="about-card">
           <img
             src={Me}
-            alt=""
-            className="about-img"
+            alt="About image"
           />
         </div>
       </div>
       <div className="about-right">
-        <h1 className="about-title">Sobre Mim ✋🏻 </h1>
-        <p className="about-sub">
+        <h1>Sobre Mim ✋🏻 </h1>
+        <p>
           Mineiro, 27 anos, atualmente residindo na região metropolitana de Belo Horizonte.
         </p>
         <p className="about-desc">
