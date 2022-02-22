@@ -1,4 +1,4 @@
-import './intro.css'
+import './intro.scss'
 
 import Me from '../../assets/perfil.png'
 
@@ -8,8 +8,8 @@ const Intro = () => {
             <div className="intro">
                 <div className="intro-left"> 
                     <div className="intro-left-wrapper">
-                        <h2 className="intro-introduction">Olá, eu me chamo</h2>
-                        <h1 className="intro-name">Marcus Sena</h1>    
+                        <h2>Olá, eu me chamo</h2>
+                        <h1>Marcus Sena</h1>    
                         <div className="intro-title">
                             <div className="intro-title-wrapper">
                                 <div className="intro-title-item">Desenvolvedor Web</div>
@@ -24,7 +24,7 @@ const Intro = () => {
                     </div> 
                 </div>
                 <div className="intro-right">
-                    <img src={Me} alt="" className="intro-img"/>
+                    <img src={Me} alt="my perfil " />
                 </div>
             </div> 
         </div>

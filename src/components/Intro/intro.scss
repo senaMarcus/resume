@@ -15,6 +15,13 @@
   position: relative;
   justify-content: center;
   top: 40px;
+
+  img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    position: absolute;
+  }
 }
 
 .intro-left-wrapper {
@@ -23,15 +30,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
 
-.intro-introduction {
-  font-size: 30px;
-  font-weight: 300;
-}
+  h1 {
+    font-size: 60px;
+  }
 
-.intro-name {
-  font-size: 60px;
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+  }
 }
 
 .intro-title {
@@ -54,9 +61,6 @@
   75% {
     transform: translateY(-150px);
   }
-  /* 100% {
-    transform: translateY(-200px);
-  } tirar o comentário caso seja desejado acrescentar atributo*/
 }
 
 .intro-title-item {
@@ -73,13 +77,6 @@
   height: 30px;
   position: absolute;
   bottom: 20px;
-}
-
-.intro-img {
-  width: 80%;
-  height: 80%;
-  object-fit: cover;
-  position: absolute;
 }
 
 .intro-bg {
@@ -103,14 +100,14 @@
     text-align: center;
     justify-content: space-evenly;
     height: 100%;
-  }
 
-  .intro-introduction {
-    font-size: 60px;
-  }
+    h1 {
+      font-size: 100px;
+    }
 
-  .intro-name {
-    font-size: 100px;
+    h2 {
+      font-size: 60px;
+    }
   }
 
   .intro-title-item {
@@ -122,8 +119,10 @@
     display: none;
   }
 
-  .intro-img {
-    width: 70%;
-    margin-left: 150px;
+  .intro-right {
+    img {
+      width: 70%;
+      margin-left: 150px;
+    }
   }
 }
