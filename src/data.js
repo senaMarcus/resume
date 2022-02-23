@@ -39,7 +39,7 @@ export const products = [
         id: 6,
         img:"https://github.com/maarvins/Clone-instagram/raw/master/public/assets/print-app.png",
         title:"Instagram Clone",
-        link:"https://clone-instagram-peach.vercel.app/",
+        link:"https://clone-instagram-olive.vercel.app/",
         repository: "https://github.com/maarvins/Clone-instagram"
     }
 ]
