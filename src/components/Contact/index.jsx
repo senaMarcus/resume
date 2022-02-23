@@ -33,7 +33,7 @@ const Contact = () => {
                 (error) => {
                     console.log(error.text);
                 },
-                formRef.current.reset()
+                formRef.current.reset() //limpando o formulario apos o envio dos dados
             );
     }
 
