@@ -67,14 +67,9 @@ $font-size: $tamanho/2;
   display: flex;
   justify-content: center;
   color: black;
+  height: 100%;
 }
 
 .social-icon {
   margin: 20px 10px;
-}
-
-@media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
-  .white-section {
-    position: absolute;
-  }
 }
