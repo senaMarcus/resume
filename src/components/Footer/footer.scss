@@ -75,6 +75,6 @@ $font-size: $tamanho/2;
 
 @media screen and (max-device-width: 1024px), screen and (max-width: 1024px) {
   .white-section {
-    position: relative;
+    position: absolute;
   }
 }
