@@ -32,8 +32,8 @@ const Contact = () => {
                 }, 
                 (error) => {
                     console.log(error.text);
-                }
-                
+                },
+                formRef.current.reset()
             );
     }
 
